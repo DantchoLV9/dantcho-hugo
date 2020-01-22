@@ -1,0 +1,3 @@
+[submodule "themes/dantcho"]
+	path = themes/dantcho
+	url = git@github.com:DantchoLV9/dantcho-hugo-theme.git
