@@ -1,3 +1,6 @@
 [submodule "themes/dantcho"]
 	path = themes/dantcho
 	url = git@github.com:DantchoLV9/dantcho-hugo-theme.git
+[submodule "content"]
+	path = content
+	url = git@github.com:DantchoLV9/dantcho-website-content.git
