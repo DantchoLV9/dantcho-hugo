@@ -1,3 +1,20 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "/"
+languageCode = "en"
+title = "Dantcho - Web Developer"
+theme = "dantcho"
+
+[params]
+    author = "Yordan Hristov"
+    description = "Yordan Hristov is a self taught web developer aka Dantcho. This is his web development blog."
+    favicon = "favicon.ico"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[permalinks]
+    posts = "/:title/"
+
+[taxonomies]
+    tag = "tags"
