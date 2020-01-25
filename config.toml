@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en"
 title = "Dantcho - Web Developer"
 theme = "dantcho"
+paginate = 10
 
 [params]
     author = "Yordan Hristov"
@@ -18,3 +19,4 @@ theme = "dantcho"
 
 [taxonomies]
     tag = "tags"
+    category = "categories"
