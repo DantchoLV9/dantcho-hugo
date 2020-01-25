@@ -10,7 +10,7 @@ paginate = 10
     favicon = "favicon.ico"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = "/"
     weight = 1
 
