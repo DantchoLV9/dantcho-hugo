@@ -3,6 +3,8 @@ languageCode = "en"
 title = "Dantcho - Web Developer"
 theme = "dantcho"
 paginate = 10
+disqusShortname = "dantcho"
+googleAnalytics = "G-755WHB1MHP"
 
 [params]
     author = "Yordan Hristov"
