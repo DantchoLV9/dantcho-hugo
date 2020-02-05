@@ -1,0 +1,23 @@
+{{ define "main" -}}
+<main class="content">
+	<h1 class="blog-heading">Search</h1>
+	<div class="ais-InstantSearch">
+		<div class="right-panel">
+			<div id="search-box"></div>
+			<div id="powered-by"></div>
+			<div id="hits"></div>
+		</div>
+	</div>
+</main>
+<script
+	src="https://cdn.jsdelivr.net/npm/algoliasearch@3.35.1/dist/algoliasearchLite.min.js"
+	integrity="sha256-5rOQwvvJdM9oDYQYCGzaJuuTy6SUALjma3OtzEGyJM0="
+	crossorigin="anonymous"
+></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.0.0/dist/instantsearch.production.min.js"
+	integrity="sha256-6S7q0JJs/Kx4kb/fv0oMjS855QTz5Rc2hh9AkIUjUsk="
+	crossorigin="anonymous"
+></script>
+<script src="{{ "js/search-min.js" | relURL }}"></script>
+{{ end -}}

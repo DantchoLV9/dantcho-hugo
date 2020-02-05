@@ -4,7 +4,7 @@ title = "Dantcho - Web Developer"
 theme = "dantcho"
 paginate = 10
 disqusShortname = "dantcho"
-googleAnalytics = "G-755WHB1MHP"
+googleAnalytics = "UA-66639861-3"
 
 [params]
     author = "Yordan Hristov"
@@ -22,3 +22,8 @@ googleAnalytics = "G-755WHB1MHP"
 [taxonomies]
     tag = "tags"
     category = "categories"
+
+[algolia]
+    index = "posts"
+    key = "[API key]"
+    appID = "[app id]"
